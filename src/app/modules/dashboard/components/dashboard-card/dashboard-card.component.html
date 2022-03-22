@@ -2,7 +2,7 @@
 <div class="scrollmenu">
     <div class="card-section" *ngFor="let department of dashboardModel?.departments" style="display: inline-block;">
         <nb-card>
-            <img src="../../../../../assets/images/alan.png" width="135" class="image" alt="image">
+            <img [src]="department?.imageUrl" width="135" class="image" alt="image">
             <span class="text-muted card-title">{{department?.name}}</span>
             <span class="card-no-consultant">{{ department?.nOfConsultant }}</span>
         </nb-card>

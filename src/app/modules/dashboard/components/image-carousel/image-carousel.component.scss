@@ -1,0 +1,17 @@
+.image-title,
+.image-description {
+  color: whitesmoke;
+  font-family: system-ui;
+}
+
+ngb-carousel {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+img {
+  width: 100%;
+  max-height: 25rem;
+  border-radius: 0.4rem;
+  min-height: 14rem;
+}
