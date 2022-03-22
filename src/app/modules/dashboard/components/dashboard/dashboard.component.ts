@@ -1,12 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardModel } from '../../models/dashboard.model';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'ngx-dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  styleUrls: ['./dashboard.component.scss'],
+  providers: [NgbCarouselConfig]
 })
 export class DashboardComponent implements OnInit {
+
+
+
+
 
   dashboardModel: DashboardModel[] = [
     {
@@ -26,7 +32,9 @@ export class DashboardComponent implements OnInit {
       ]
     }
   ];
-  constructor() { }
+
+
+
 
   ngOnInit(): void {
   }
