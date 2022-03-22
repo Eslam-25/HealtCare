@@ -1,0 +1,39 @@
+<nb-card style="padding:1rem">
+    <div>
+        <div class="row" style="justify-content: center;">
+            <img src="../../../../../assets/images/alan.png" width="80" class="image" alt="image">
+        </div>
+        <div class="row" class="row-name">
+            <div style="text-align: center;">
+                <h6>د. مرزوق محمد الخواجه <dots-light type="0"></dots-light>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: right;">
+        <h5 class="text-muted"><i class="mdi mdi-stethoscope"></i>اخصائي طب الاطفال</h5>
+        <h5 class="text-muted"><i class="mdi mdi-hospital-marker"></i>بدواى</h5>
+        <h5 class="text-muted"><i class="mdi mdi-calendar-multiple-check"></i>السبت - الخميس</h5>
+        <h5 class="text-muted"><i class="mdi mdi-alarm"></i>3:00-4:00</h5>
+        <h5 class="text-muted"><i class="mdi mdi-phone-classic"></i>1234567890</h5>
+    </div>
+
+    
+    <div class="row btn-sections">
+        <div style="text-align: center; font-size: small;">
+            <h6 style="font-size: 8.5pt ;margin-bottom: -0.3rem;">10 <br /></h6> <span class="text-muted">عدد زوار
+                الدكتور</span>
+        </div>
+        <br />
+        <div>
+            <button type="button" (click)="openMessageDialog(1)" class="btn btn-link btn-fw btn-sm">
+                <span class="send-btn-text">استشارة</span>
+            </button>
+            <br />
+            <button type="button" (click)="openReservationDialog(1)" class="btn btn-danger btn-fw btn-sm" style="margin-top: 0.5rem;">
+                <i class="mdi mdi-stethoscope btn-icon"></i><span class="send-btn-text">احجز</span>
+            </button>
+        </div>
+    </div>
+</nb-card>

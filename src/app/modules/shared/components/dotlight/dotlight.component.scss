@@ -1,0 +1,16 @@
+.availability-status {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  &.online {
+    background: #1bcfb4;
+  }
+  &.offline {
+    background: #9c9fa6;
+  }
+  &.busy {
+    background: #fe7c96;
+  }
+}

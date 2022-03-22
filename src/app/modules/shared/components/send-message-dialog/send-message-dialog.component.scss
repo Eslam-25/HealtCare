@@ -1,0 +1,26 @@
+.title {
+  font-family: system-ui;
+  margin-bottom: 1rem;
+}
+
+.text-message {
+  font-family: system-ui;
+}
+
+::ng-deep .cdk-overlay-pane {
+  width: 100%;
+}
+
+textarea::placeholder {
+  float: right;
+}
+
+button {
+  font-family: system-ui;
+  font-size: 10pt;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  padding-bottom: 5pt;
+}

@@ -1,0 +1,10 @@
+.send-btn-text {
+  font-family: system-ui;
+  font-size: 9pt;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+::ng-deep .nb-theme-default nb-spinner.status-primary {
+  background-color: initial;
+}

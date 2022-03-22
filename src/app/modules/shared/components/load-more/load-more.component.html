@@ -1,0 +1,7 @@
+<div *ngIf="isLoading" [nbSpinner]="isLoading" nbSpinnerStatus="primary" style="height: 3rem; background-color: initial;">
+</div>
+<div *ngIf="!isLoading" style="height: 3rem; background-color: initial; text-align: center;">
+    <button type="button" (click)="loadMore()" class="btn btn-link btn-fw btn-sm">
+        <span class="send-btn-text">المزيد</span>
+    </button>
+</div>

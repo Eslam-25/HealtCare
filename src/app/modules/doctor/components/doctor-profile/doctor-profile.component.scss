@@ -1,0 +1,30 @@
+::ng-deep .nb-theme-default nb-tab {
+  padding: 1rem 0.5rem !important;
+  line-height: 18pt !important;
+}
+
+::ng-deep .nb-theme-default nb-tabset {
+  .tab.active .tab-link::before {
+    height: 0.1rem !important;
+    margin: 2px !important;
+  }
+
+  .tab:hover {
+    .tab-link {
+      &::before {
+        height: 0.1rem !important;
+        margin: 2px !important;
+        background-color: nb-theme(tabset-tab-hover-underline-color);
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .tab-text ng-star-inserted,
+  a,
+  nb-tab {
+    font-size: 9.5pt !important;
+    font-weight: 500 !important;
+    font-family: system-ui !important;
+  }
+}

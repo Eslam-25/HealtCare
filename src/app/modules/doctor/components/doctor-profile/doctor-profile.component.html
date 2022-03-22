@@ -1,0 +1,23 @@
+<bread-crumb [breadCrumbs]="breadCrumbs"></bread-crumb>
+
+<div class="row">
+    <div class="col-lg-4 col-md-5 col-sm-12 grid-margin stretch-card">
+        <doctor-card></doctor-card>
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-12 grid-margin stretch-card">
+        <nb-card style="padding:1rem">
+            <nb-tabset>
+                <nb-tab tabTitle="عن الدكتور" class="text-muted">
+                    يختلف دور الطبيب ومعنى الكلمة نفسها حول العالم. تختلف الدرجات العلمية والمؤهلات الأخرى على نطاق واسع ، ولكن هناك بعض العناصر المشتركة، مثل الأخلاقيات الطبية التي تتطلب أن يُظهر الأطباء الاعتبار والتعاطف تجاه مرضاهم.
+                </nb-tab>
+                <nb-tab tabTitle="تقييم الزوار" class="text-muted" style="margin-bottom: -1.5rem;">
+                    <evaluation></evaluation>
+                    <hr />
+                    <evaluation></evaluation>
+                    <hr />
+                    <load-more [isLoading]="isLoading" (onLoadingMore)="onLoadingMore()"></load-more>
+                </nb-tab>
+            </nb-tabset>
+        </nb-card>
+    </div>
+</div>

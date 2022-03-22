@@ -1,0 +1,12 @@
+<div style="text-align: center;">
+    <h6 class="title" mat-dialog-title>{{ data.title }}</h6>
+</div>
+<div mat-dialog-content>
+    <textarea class="text-message" dir="auto" rows="7" [(ngModel)]="data.message" nbInput fullWidth placeholder="استشارتك"></textarea>
+</div>
+
+<br />
+<div mat-dialog-actions>
+    <button mat-button (click)="close()" mat-dialog-close class="btn btn-default btn-fw btn-sm">الغاء</button>
+    <button mat-button (click)="send()" class="btn btn-link btn-fw btn-sm">ارسال</button>
+</div>

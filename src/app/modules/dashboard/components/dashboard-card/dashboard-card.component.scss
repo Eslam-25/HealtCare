@@ -1,0 +1,56 @@
+.section-title,
+.card-no-consultant,
+.card-title {
+  font-family: system-ui;
+}
+
+.card-title {
+  font-size: medium;
+  font-weight: 500;
+  padding-top: 0.6rem;
+}
+
+.card-no-consultant {
+  margin-top: -0.5rem;
+  font-size: small;
+  font-weight: 500;
+  padding-bottom: 0.6rem;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu .card-section {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 0.6rem;
+  text-decoration: none;
+}
+
+div.scrollmenu {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+div.scrollmenu::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+nb-card {
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nb-card:hover {
+  cursor: pointer;
+}
